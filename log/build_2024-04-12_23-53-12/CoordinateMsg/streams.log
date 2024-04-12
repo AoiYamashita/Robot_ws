@@ -1,0 +1,63 @@
+[0.148s] Invoking command in '/home/yamashita/Robot_ws/build/CoordinateMsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble /usr/bin/cmake /home/yamashita/Robot_ws/src/CoordinateMsg -DCMAKE_INSTALL_PREFIX=/home/yamashita/Robot_ws/install/CoordinateMsg
+[0.420s] -- The C compiler identification is GNU 11.4.0
+[0.763s] -- The CXX compiler identification is GNU 11.4.0
+[1.043s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.185s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.192s] -- Detecting CXX compiler ABI info
+[1.370s] -- Detecting CXX compiler ABI info - done
+[1.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.375s] -- Detecting CXX compile features
+[1.375s] -- Detecting CXX compile features - done
+[1.451s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.573s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.679s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.697s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.000s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.000s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.000s]   CoordinateMsg --arguments-file
+[2.000s]   /home/yamashita/Robot_ws/build/CoordinateMsg/rosidl_adapter__arguments__CoordinateMsg.json
+[2.000s]   --output-dir
+[2.000s]   /home/yamashita/Robot_ws/build/CoordinateMsg/rosidl_adapter/CoordinateMsg
+[2.000s]   --output-file
+[2.000s]   /home/yamashita/Robot_ws/build/CoordinateMsg/rosidl_adapter/CoordinateMsg.idls)
+[2.000s]   returned error code 1:
+[2.001s] 
+[2.001s]   Error processing 'float64 *data[4]' of 'CoordinateMsg/Coordinate':
+[2.001s]   ''*data[4]' is an invalid field name.  It should have the pattern
+[2.001s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[2.001s] 
+[2.001s]   Traceback (most recent call last):
+[2.001s] 
+[2.001s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.001s]       return _run_code(code, main_globals, None,
+[2.001s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.001s]       exec(code, run_globals)
+[2.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.001s]       sys.exit(main())
+[2.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.001s]       abs_idl_file = convert_to_idl(
+[2.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[2.001s]       return convert_msg_to_idl(
+[2.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.001s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[2.001s]       fields.append(Field(
+[2.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[2.001s]       raise NameError(
+[2.001s] 
+[2.001s]   NameError: '*data[4]' is an invalid field name.  It should have the pattern
+[2.001s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[2.001s] 
+[2.001s] Call Stack (most recent call first):
+[2.001s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.001s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.001s] 
+[2.002s] -- Configuring incomplete, errors occurred!
+[2.002s] See also "/home/yamashita/Robot_ws/build/CoordinateMsg/CMakeFiles/CMakeOutput.log".
+[2.002s] [0m
+[2.005s] Invoked command in '/home/yamashita/Robot_ws/build/CoordinateMsg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble /usr/bin/cmake /home/yamashita/Robot_ws/src/CoordinateMsg -DCMAKE_INSTALL_PREFIX=/home/yamashita/Robot_ws/install/CoordinateMsg

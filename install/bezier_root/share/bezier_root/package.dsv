@@ -1,0 +1,6 @@
+source;share/bezier_root/hook/pythonpath.ps1
+source;share/bezier_root/hook/pythonpath.dsv
+source;share/bezier_root/hook/pythonpath.sh
+source;share/bezier_root/hook/ament_prefix_path.ps1
+source;share/bezier_root/hook/ament_prefix_path.dsv
+source;share/bezier_root/hook/ament_prefix_path.sh

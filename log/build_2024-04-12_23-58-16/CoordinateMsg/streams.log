@@ -1,0 +1,50 @@
+[0.111s] Invoking command in '/home/yamashita/Robot_ws/build/CoordinateMsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble /usr/bin/cmake /home/yamashita/Robot_ws/src/CoordinateMsg -DCMAKE_INSTALL_PREFIX=/home/yamashita/Robot_ws/install/CoordinateMsg
+[0.118s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.213s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.216s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.531s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.531s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.531s]   CoordinateMsg --arguments-file
+[0.531s]   /home/yamashita/Robot_ws/build/CoordinateMsg/rosidl_adapter__arguments__CoordinateMsg.json
+[0.531s]   --output-dir
+[0.532s]   /home/yamashita/Robot_ws/build/CoordinateMsg/rosidl_adapter/CoordinateMsg
+[0.532s]   --output-file
+[0.532s]   /home/yamashita/Robot_ws/build/CoordinateMsg/rosidl_adapter/CoordinateMsg.idls)
+[0.532s]   returned error code 1:
+[0.532s] 
+[0.532s]   Error processing 'float64 *data[2]' of 'CoordinateMsg/Coordinate':
+[0.532s]   ''*data[2]' is an invalid field name.  It should have the pattern
+[0.532s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.532s] 
+[0.532s]   Traceback (most recent call last):
+[0.532s] 
+[0.532s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.532s]       return _run_code(code, main_globals, None,
+[0.532s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.532s]       exec(code, run_globals)
+[0.532s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.533s]       sys.exit(main())
+[0.533s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.533s]       abs_idl_file = convert_to_idl(
+[0.533s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.533s]       return convert_msg_to_idl(
+[0.533s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.533s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.533s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.533s]       fields.append(Field(
+[0.533s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.533s]       raise NameError(
+[0.533s] 
+[0.533s]   NameError: '*data[2]' is an invalid field name.  It should have the pattern
+[0.533s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.533s] 
+[0.533s] Call Stack (most recent call first):
+[0.533s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.533s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.533s] 
+[0.533s] [0m
+[0.534s] -- Configuring incomplete, errors occurred!
+[0.534s] See also "/home/yamashita/Robot_ws/build/CoordinateMsg/CMakeFiles/CMakeOutput.log".
+[0.537s] Invoked command in '/home/yamashita/Robot_ws/build/CoordinateMsg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble /usr/bin/cmake /home/yamashita/Robot_ws/src/CoordinateMsg -DCMAKE_INSTALL_PREFIX=/home/yamashita/Robot_ws/install/CoordinateMsg

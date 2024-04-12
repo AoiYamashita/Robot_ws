@@ -1,0 +1,149 @@
+[0.568s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.568s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9291a751e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9291a76f50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9291a76f50>>)
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.592s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yamashita/Robot_ws'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/CoordinateMsg) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package 'src/CoordinateMsg' with type 'ros.ament_cmake' and name 'CoordinateMsg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/bezier_root) by extension 'ros'
+[0.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bezier_root' with type 'ros.ament_python' and name 'bezier_root'
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yamashita/LegControll/install
+[0.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yamashita/auto_robot_2024/install
+[0.681s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/humble
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'cmake_target' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'cmake_clean_first' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'cmake_force_configure' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'ament_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'CoordinateMsg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.743s] DEBUG:colcon.colcon_core.verb:Building package 'CoordinateMsg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yamashita/Robot_ws/build/CoordinateMsg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yamashita/Robot_ws/install/CoordinateMsg', 'merge_install': False, 'path': '/home/yamashita/Robot_ws/src/CoordinateMsg', 'symlink_install': False, 'test_result_base': None}
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'cmake_args' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'cmake_target' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'cmake_clean_cache' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'cmake_clean_first' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'cmake_force_configure' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'ament_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'catkin_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'bezier_root' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.750s] DEBUG:colcon.colcon_core.verb:Building package 'bezier_root' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yamashita/Robot_ws/build/bezier_root', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yamashita/Robot_ws/install/bezier_root', 'merge_install': False, 'path': '/home/yamashita/Robot_ws/src/bezier_root', 'symlink_install': False, 'test_result_base': None}
+[0.756s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.763s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.763s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yamashita/Robot_ws/src/CoordinateMsg' with build type 'ament_cmake'
+[0.763s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yamashita/Robot_ws/src/CoordinateMsg'
+[0.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yamashita/Robot_ws/src/bezier_root' with build type 'ament_python'
+[0.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('bezier_root', 'ament_prefix_path')
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/Robot_ws/install/bezier_root/share/bezier_root/hook/ament_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/Robot_ws/install/bezier_root/share/bezier_root/hook/ament_prefix_path.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/Robot_ws/install/bezier_root/share/bezier_root/hook/ament_prefix_path.sh'
+[0.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/Robot_ws/build/CoordinateMsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble /usr/bin/cmake /home/yamashita/Robot_ws/src/CoordinateMsg -DCMAKE_INSTALL_PREFIX=/home/yamashita/Robot_ws/install/CoordinateMsg
+[1.023s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yamashita/Robot_ws/src/bezier_root'
+[1.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.031s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/Robot_ws/build/CoordinateMsg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble /usr/bin/cmake /home/yamashita/Robot_ws/src/CoordinateMsg -DCMAKE_INSTALL_PREFIX=/home/yamashita/Robot_ws/install/CoordinateMsg
+[1.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(CoordinateMsg)
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/Robot_ws/install/CoordinateMsg' for CMake module files
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/Robot_ws/install/CoordinateMsg' for CMake config files
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/Robot_ws/install/CoordinateMsg/bin'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/Robot_ws/install/CoordinateMsg/lib/pkgconfig/CoordinateMsg.pc'
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/Robot_ws/install/CoordinateMsg/lib/python3.10/site-packages'
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/Robot_ws/install/CoordinateMsg/bin'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/Robot_ws/install/CoordinateMsg/share/CoordinateMsg/package.ps1'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/Robot_ws/install/CoordinateMsg/share/CoordinateMsg/package.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/Robot_ws/install/CoordinateMsg/share/CoordinateMsg/package.sh'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/Robot_ws/install/CoordinateMsg/share/CoordinateMsg/package.bash'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/Robot_ws/install/CoordinateMsg/share/CoordinateMsg/package.zsh'
+[1.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/Robot_ws/install/CoordinateMsg/share/colcon-core/packages/CoordinateMsg)
+[1.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.318s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.390s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.390s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.390s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/Robot_ws/install/local_setup.ps1'
+[1.398s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yamashita/Robot_ws/install/_local_setup_util_ps1.py'
+[1.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/Robot_ws/install/setup.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/Robot_ws/install/local_setup.sh'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yamashita/Robot_ws/install/_local_setup_util_sh.py'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/Robot_ws/install/setup.sh'
+[1.416s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/Robot_ws/install/local_setup.bash'
+[1.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/Robot_ws/install/setup.bash'
+[1.424s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/Robot_ws/install/local_setup.zsh'
+[1.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/Robot_ws/install/setup.zsh'

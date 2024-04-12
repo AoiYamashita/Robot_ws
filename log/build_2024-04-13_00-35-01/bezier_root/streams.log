@@ -1,0 +1,24 @@
+[0.628s] Invoking command in '/home/yamashita/Robot_ws/src/bezier_root': PYTHONPATH=/home/yamashita/Robot_ws/build/bezier_root/prefix_override:/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bezier_root build --build-base /home/yamashita/Robot_ws/build/bezier_root/build install --record /home/yamashita/Robot_ws/build/bezier_root/install.log --single-version-externally-managed
+[0.810s] running egg_info
+[0.810s] writing ../../build/bezier_root/bezier_root.egg-info/PKG-INFO
+[0.811s] writing dependency_links to ../../build/bezier_root/bezier_root.egg-info/dependency_links.txt
+[0.811s] writing entry points to ../../build/bezier_root/bezier_root.egg-info/entry_points.txt
+[0.811s] writing requirements to ../../build/bezier_root/bezier_root.egg-info/requires.txt
+[0.811s] writing top-level names to ../../build/bezier_root/bezier_root.egg-info/top_level.txt
+[0.814s] reading manifest file '../../build/bezier_root/bezier_root.egg-info/SOURCES.txt'
+[0.814s] writing manifest file '../../build/bezier_root/bezier_root.egg-info/SOURCES.txt'
+[0.814s] running build
+[0.815s] running build_py
+[0.815s] copying bezier_root/bezier.py -> /home/yamashita/Robot_ws/build/bezier_root/build/lib/bezier_root
+[0.815s] running install
+[0.816s] running install_lib
+[0.816s] copying /home/yamashita/Robot_ws/build/bezier_root/build/lib/bezier_root/bezier.py -> /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root
+[0.816s] byte-compiling /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root/bezier.py to bezier.cpython-310.pyc
+[0.816s] running install_data
+[0.817s] running install_egg_info
+[0.817s] removing '/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info' (and everything under it)
+[0.817s] Copying ../../build/bezier_root/bezier_root.egg-info to /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info
+[0.818s] running install_scripts
+[0.833s] Installing besierRoot script to /home/yamashita/Robot_ws/install/bezier_root/lib/bezier_root
+[0.833s] writing list of installed files to '/home/yamashita/Robot_ws/build/bezier_root/install.log'
+[0.853s] Invoked command in '/home/yamashita/Robot_ws/src/bezier_root' returned '0': PYTHONPATH=/home/yamashita/Robot_ws/build/bezier_root/prefix_override:/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bezier_root build --build-base /home/yamashita/Robot_ws/build/bezier_root/build install --record /home/yamashita/Robot_ws/build/bezier_root/install.log --single-version-externally-managed

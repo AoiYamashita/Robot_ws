@@ -1,0 +1,5 @@
+  File "/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root/bezier.py", line 4
+    from coordinate_msg/msg import Coordinate
+                       ^
+SyntaxError: invalid syntax
+
