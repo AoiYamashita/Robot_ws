@@ -31,8 +31,10 @@ class Bezier(Node):
         self.subscription = self.create_subscription(Coordinate,"CheckPoint",self.cb,10)
         self.publisher = self.create_publisher(Coordinate,"Root",10)
     def cb(self,data):
+        
         x = np.array(data.x[:])
         y = np.array(data.y[:])
+        if x.shape[0] <= 1:return
         coordData = np.array([x[:],y[:]]).T
         root,vec = calcbesier(coordData)
         RootData = Coordinate()
