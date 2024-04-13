@@ -15,4 +15,4 @@ def generate_launch_description():
             executable = 'bezierRoot',
             output = 'screen',
             )
-    return launch.LaunchDescription([web,bezier])#,serial])
+    return launch.LaunchDescription([web,bezier])
