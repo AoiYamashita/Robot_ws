@@ -1,0 +1,22 @@
+[0.488s] Invoking command in '/home/yamashita/Robot_ws/src/bezier_root': PYTHONPATH=/home/yamashita/Robot_ws/build/bezier_root/prefix_override:/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bezier_root build --build-base /home/yamashita/Robot_ws/build/bezier_root/build install --record /home/yamashita/Robot_ws/build/bezier_root/install.log --single-version-externally-managed install_data
+[0.677s] running egg_info
+[0.677s] writing ../../build/bezier_root/bezier_root.egg-info/PKG-INFO
+[0.677s] writing dependency_links to ../../build/bezier_root/bezier_root.egg-info/dependency_links.txt
+[0.677s] writing entry points to ../../build/bezier_root/bezier_root.egg-info/entry_points.txt
+[0.677s] writing requirements to ../../build/bezier_root/bezier_root.egg-info/requires.txt
+[0.677s] writing top-level names to ../../build/bezier_root/bezier_root.egg-info/top_level.txt
+[0.677s] reading manifest file '../../build/bezier_root/bezier_root.egg-info/SOURCES.txt'
+[0.677s] writing manifest file '../../build/bezier_root/bezier_root.egg-info/SOURCES.txt'
+[0.677s] running build
+[0.677s] running build_py
+[0.677s] running install
+[0.677s] running install_lib
+[0.677s] running install_data
+[0.677s] copying launch/bezier.launch.py -> /home/yamashita/Robot_ws/install/bezier_root/share/bezier_root
+[0.677s] running install_egg_info
+[0.679s] removing '/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info' (and everything under it)
+[0.679s] Copying ../../build/bezier_root/bezier_root.egg-info to /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info
+[0.680s] running install_scripts
+[0.699s] Installing bezierRoot script to /home/yamashita/Robot_ws/install/bezier_root/lib/bezier_root
+[0.699s] writing list of installed files to '/home/yamashita/Robot_ws/build/bezier_root/install.log'
+[0.724s] Invoked command in '/home/yamashita/Robot_ws/src/bezier_root' returned '0': PYTHONPATH=/home/yamashita/Robot_ws/build/bezier_root/prefix_override:/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bezier_root build --build-base /home/yamashita/Robot_ws/build/bezier_root/build install --record /home/yamashita/Robot_ws/build/bezier_root/install.log --single-version-externally-managed install_data

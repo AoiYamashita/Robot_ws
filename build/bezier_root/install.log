@@ -4,6 +4,7 @@
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root/__pycache__/__init__.cpython-310.pyc
 /home/yamashita/Robot_ws/install/bezier_root/share/ament_index/resource_index/packages/bezier_root
 /home/yamashita/Robot_ws/install/bezier_root/share/bezier_root/package.xml
+/home/yamashita/Robot_ws/install/bezier_root/share/bezier_root/bezier.launch.py
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info/PKG-INFO
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info/top_level.txt
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info/zip-safe
@@ -11,4 +12,4 @@
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages/bezier_root-0.0.0-py3.10.egg-info/entry_points.txt
-/home/yamashita/Robot_ws/install/bezier_root/lib/bezier_root/besierRoot
+/home/yamashita/Robot_ws/install/bezier_root/lib/bezier_root/bezierRoot

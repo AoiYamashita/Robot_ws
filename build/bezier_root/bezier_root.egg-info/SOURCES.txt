@@ -10,6 +10,7 @@ setup.py
 ../../build/bezier_root/bezier_root.egg-info/zip-safe
 bezier_root/__init__.py
 bezier_root/bezier.py
+launch/bezier.launch.py
 resource/bezier_root
 test/test_copyright.py
 test/test_flake8.py
